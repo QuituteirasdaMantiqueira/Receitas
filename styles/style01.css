@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    min-width: 300px;
+    max-width: 100%;
+}
+img {
+    width: 100%;
+}
+.logo {
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    height: auto;
+    background-color: black;
+}
+footer {
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    width: 90%;
+    right: 4.25%;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.instagram-logo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
