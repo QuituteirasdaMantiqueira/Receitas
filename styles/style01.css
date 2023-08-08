@@ -18,7 +18,13 @@ body {
     max-width: 100%;
     background-color: rgb(253, 253, 253);
 }
-.logo {
+.logog {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+.logop {
     max-width: 250px;
     display: block;
     margin: auto;
