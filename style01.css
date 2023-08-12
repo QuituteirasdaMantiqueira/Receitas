@@ -38,10 +38,28 @@ body {
 main {
     font-family: var(--fonteprincipal);
     background-color: var(--verdeclaro);
-    height: 50vh;
-    width: 80vw;
     margin: auto;
-    border-radius: 10px;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    margin: auto;
+    align-items: center;
+}
+#imgreceita {
+    border: 10px solid #012623;
+    border-radius: 5px;
+    margin: auto;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
 }
 footer {
     text-align: center;
