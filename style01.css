@@ -47,6 +47,7 @@ main {
     object-fit: cover;
     padding: 20px;
     margin: 20px;
+    padding-top: 30px;
     color: white;
     margin: auto;
     align-items: center;
@@ -55,6 +56,10 @@ main {
     border: 10px solid #012623;
     border-radius: 5px;
     margin: auto;
+}
+h1 {
+    font-size: 3em;
+    font-weight: bold;
 }
 h2 {
     margin: 0;

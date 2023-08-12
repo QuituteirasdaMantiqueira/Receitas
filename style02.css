@@ -43,10 +43,14 @@ main {
 }
 .container {
     display: flex;
-    object-fit: cover;
+    object-fit: contain;
     padding: 20px;
     margin: 20px;
     color: white;
+    font-family: var(--fonteprincipal);
+}
+li {
+    line-height: 24px;
 }
 #receita {
     flex-direction: column;
@@ -54,6 +58,7 @@ main {
     margin-top: 0;
 }
 #imgreceita {
+    display: block;
     border: 10px solid #012623;
     border-radius: 5px;
 }
