@@ -43,25 +43,24 @@ main {
 }
 .container {
     display: flex;
-    object-fit: contain;
+    align-items: center;
     padding: 20px;
     margin: 20px;
+}
+.imgreceita {
+    max-width: 100%; 
+    height: auto; 
+    margin-top: 0;
+    margin-right: 20px;
+    border: 10px solid #012623;
+    border-radius: 5px;
+}
+.receita {
+    flex: 1;
     color: white;
-    font-family: var(--fonteprincipal);
-    flex-flow: row;
 }
 li {
     line-height: 24px;
-}
-#receita {
-    flex-direction: column;
-    margin-left: 50px;
-    margin-top: 0;
-}
-#imgreceita {
-    display: block;
-    border: 10px solid #012623;
-    border-radius: 5px;
 }
 h2 {
     font-size: 3em;
