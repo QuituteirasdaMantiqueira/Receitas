@@ -37,6 +37,11 @@ body {
 }
 main {
     font-family: var(--fonteprincipal);
+    background-color: var(--verdeclaro);
+    height: 50vh;
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px;
 }
 footer {
     text-align: center;
