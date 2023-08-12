@@ -8,6 +8,11 @@
     --fonteprincipal: 'Roboto Slab', serif;
     --fontelinks: 'Borel', cursive;
     --fontetitulo: 'Bebas Neue', sans-serif;
+    --verdeclaro: #01403A;
+    --verdeescuro: #012623;
+    --bege: #A69981;
+    --branco: #D9CEC1;
+    --preto: #0D0D0D;
 }
 
 body {
@@ -16,7 +21,7 @@ body {
     height: 100vh;
     min-width: 300px;
     max-width: 100%;
-    background-color: white;
+    background-color: var(--branco);
 }
 .logog {
     max-width: 700px;
