@@ -21,7 +21,7 @@ body {
     height: 100vh;
     min-width: 300px;
     max-width: 100%;
-    background-color: var(--branco);
+    background-color: white;
 }
 .logog {
     max-width: 700px;
