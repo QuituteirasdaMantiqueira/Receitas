@@ -85,3 +85,11 @@ footer a:hover {
     vertical-align: middle;
     margin-right: 5px;
 }
+@media only screen and (max-width: 602px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    #imgreceita {
+        width: 95%;
+    }
+  }
