@@ -85,7 +85,7 @@ footer a:hover {
     vertical-align: middle;
     margin-right: 5px;
 }
-@media only screen and (max-width: 715px) {
+@media only screen and (max-width: 602px) {
     .container {
         display: flex;
         flex-direction: column;
