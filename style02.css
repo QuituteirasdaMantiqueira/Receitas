@@ -44,11 +44,11 @@ main {
 .container {
     display: flex;
     align-items: center;
-    padding: 20px;
-    margin: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
 }
-.imgreceita {
-    max-width: 100%; 
+#imgreceita { 
     height: auto; 
     margin-top: 0;
     margin-right: 40px;
@@ -84,4 +84,21 @@ footer a:hover {
     height: 30px;
     vertical-align: middle;
     margin-right: 5px;
+}
+@media only screen and (max-width: 715px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        object-fit: cover;
+        padding: 20px;
+        margin: 20px;
+        padding-top: 30px;
+        color: white;
+        margin: auto;
+        align-items: center;
+    }
+    #imgreceita {
+        width: 95%;
+        margin: auto;
+    }
 }
