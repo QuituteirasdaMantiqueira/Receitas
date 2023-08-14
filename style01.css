@@ -45,9 +45,9 @@ main {
     display: flex;
     flex-direction: column;
     object-fit: cover;
-    padding: 20px;
     margin: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     color: white;
     margin: auto;
     align-items: center;
@@ -60,6 +60,7 @@ main {
 h1 {
     font-size: 3em;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 h2 {
     margin: 0;
