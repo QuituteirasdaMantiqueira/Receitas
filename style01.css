@@ -44,18 +44,16 @@ main {
 .container {
     display: flex;
     flex-direction: column;
-    object-fit: cover;
-    margin: 20px;
-    padding-top: 20px;
+    align-items: center;
+    padding-top: 40px;
     padding-bottom: 40px;
     color: white;
-    margin: auto;
-    align-items: center;
 }
 #imgreceita {
+    height: auto; 
+    margin-top: 0;
     border: 10px solid #012623;
     border-radius: 5px;
-    margin: auto;
 }
 h1 {
     font-size: 3em;
@@ -88,12 +86,26 @@ footer a:hover {
 }
 @media only screen and (max-width: 602px) {
     h1 {
-        font-size: 2em;
+        font-size: 1.85em;
     }
     h2 {
         font-size: 1.5em;
     }
+    .container {
+        display: flex;
+        flex-direction: column;
+        object-fit: cover;
+        padding: 20px;
+        margin: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: white;
+        margin: auto;
+        align-items: center;
+    }
     #imgreceita {
         width: 95%;
+        margin: auto;
+        margin-right: 0;
     }
 }
