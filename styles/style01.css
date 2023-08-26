@@ -56,16 +56,25 @@ main {
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
 }
+section > a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+section > a:hover {
+    text-decoration: underline;
+}
+section > div {
+    padding-bottom: 40px;
+}
 h1 {
     font-size: 3em;
     font-weight: bold;
-    padding-bottom: 20px;
 }
 h2 {
     margin: 0;
     font-size: 2em;
     padding-top: 10px;
-    padding-bottom: 40px;
 }
 footer {
     text-align: center;
