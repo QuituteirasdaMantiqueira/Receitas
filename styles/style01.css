@@ -40,6 +40,7 @@ main {
     background-color: var(--verdeclaro);
     margin: auto;
     width: 100%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.400);
 }
 .container {
     display: flex;
@@ -70,11 +71,13 @@ section > div {
 h1 {
     font-size: 3em;
     font-weight: bold;
+    text-shadow: 5px 5px 30px black;
 }
 h2 {
     margin: 0;
     font-size: 2em;
     padding-top: 10px;
+    text-shadow: 5px 5px 30px black;
 }
 footer {
     text-align: center;
